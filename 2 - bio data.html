@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioData Form</title>
+    <style>
+        .title{
+            color: blue;
+        }
+        .done{
+            width: 10%;
+            background: #000;
+            color: gold;
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center">Personal Information Collection Form</h1>
+    <form align="center">    
+        <form>
+            <h3 class="title"><u>Please Enter all the Details: </u></h3>
+                <label for="fname"><b>First Name:</b>
+                    <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname"><b>Last Name:</b>
+                    <input type="text" id="lname" name="lname"><br><br>
+                
+                <label for="usn"><b>USN:</b>
+                    <input type="text" id="usn" name="usn"><br><br>
+                <label for="gpa"><b>CGPA:</b>
+                    <input type="number" id="gpa" name="gpa"><br><br>
+        </form>
+        
+        <br>
+
+        <form>
+            <label for="gender"><b>Gender (please select one):</b><br></label>
+                <input type="radio" id="male" name="gender">
+                    <label for="male">Male   </label>
+                <input type="radio" id="female" name="gender">
+                    <label for="female">Female   </label>
+                <input type="radio" id="other" name="gender">
+                    <label for="other">Other   </label>
+        </form>
+
+        <br>
+
+        <form>
+            <label for="code"><b>Programming Languages: </b></label><br>
+                <input type="checkbox" id="py" name="code">
+                <label>Python   </label><br>
+                <input type="checkbox" id="html" name="code">
+                <label>HTML   </label><br>
+                <input type="checkbox" id="css" name="code">
+                <label>CSS   </label><br>
+                <input type="checkbox" id="js" name="code">
+                <label>JavaScript   </label><br>
+                <input type="checkbox" id="java" name="code">
+                <label>Java   </label><br>
+                <input type="checkbox" id="c" name="code">
+                <label>C   </label><br>
+                <input type="checkbox" id="c++" name="code">
+                <label>C++   </label><br>
+                <input type="checkbox" id="ruby" name="code">
+                <label>Ruby   </label><br>
+                <input type="checkbox" id="sql" name="code">
+                <label>SQL   </label><br>
+                <input type="checkbox" id="kotlin" name="code">
+                <label>Kotlin   </label><br>
+        </form>
+        <br><br>
+        <form>
+            <input class="done" type="submit" value="Submit">
+        </form>    
+    </form>    
+    
+</body>
+</html>
