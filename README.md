@@ -3,3 +3,4 @@
 3. T20 Cricket Website - with video, pictures, hyperlinks, bg-image
 4. Responcive Event Registration Form
 5. Three-ways to add CSS to HTML code
+6. Types of Lists using HTML (Unordered and Ordered)
